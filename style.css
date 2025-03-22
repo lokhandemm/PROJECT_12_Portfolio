@@ -1,0 +1,176 @@
+/* General Styling */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #ffffff;
+    color: #333;
+    transition: background 0.5s, color 0.5s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background: #1e1e1e;
+    color: #f5f5f5;
+}
+
+#dark-mode-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background:rgb(158, 194, 249);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Centering and Consistent Padding for All Sections */
+section {
+    max-width: 1100px; /* Keeps content width consistent */
+    margin: 0 auto;    /* Centers content horizontally */
+    padding: 40px 20px; /* Adds spacing within sections */
+}
+
+/* Navigation */
+header {
+    background:rgb(29, 70, 151);
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 1.2em;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.profile-pic {
+    width: 180px;
+    border-radius: 50%;
+    border: 4px solidrgb(152, 203, 243);
+}
+
+/* Achievements Section */
+.achievements {
+    padding: 40px 20px;
+    max-width: 1100px; /* Keep consistent width */
+    margin: 0 auto; /* Center content */
+}
+
+.achievements h2 {
+    color:rgb(0, 2, 7);
+    text-align: center;
+}
+
+/* Individual Achievement Card */
+.achievement-item {
+    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+/* Hover Animation */
+.achievement-item:hover {
+    transform: translateY(-10px);
+}
+
+.achievement-item h3 {
+    color:rgb(29, 70, 151);
+}
+
+.achievement-item p {
+    line-height: 1.6;
+}
+
+/* Achievement Images */
+.achievement-item img {
+    display: block; /* Ensures no inline spacing */
+    width: 100%;
+    max-height: 300px;
+    margin: 20px auto; /* Centers images */
+    border-radius: 12px;
+    object-fit: cover; /* Maintains image aspect ratio */
+}
+
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background:rgb(29, 70, 151);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background:rgb(29, 70, 151);
+}
+
+/* Project Section */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px; /* Provides spacing between cards */
+}
+/* Button Styling */
+.btn {
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 10px 20px;
+    background:rgb(29, 70, 151);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background:rgb(29, 70, 151);
+}
+
+/* Individual Project Card */
+.project-card {
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(20, 9, 9, 0.1);
+    transition: transform 0.3s;
+}
+
+/* Hover Animation for Project Cards */
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+/* Timeline Section */
+.timeline-item {
+    margin: 20px 0; /* Space between work experience entries */
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background:rgb(29, 70, 151);
+    color: white;
+    padding: 20px;
+}
