@@ -4,7 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box; /* Ensure padding doesn't affect width */
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
+    line-height: 1.6; 
     background: #ffffff;
     color: #333;
     transition: background 0.5s, color 0.5s;
