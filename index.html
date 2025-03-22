@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maithili Lokhande - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Light Blue Background */
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+            /* Very Light Blue Background */
+            background-color: #E6F7FF; /* Light Blue */
+            color: #333; /* Darker text for better contrast */
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Dark Mode Styling */
+        .dark-mode {
+            background: #1a1a1a; /* Dark Background */
+            color: white; /* Light Text */
+        }
+
+        /* Content Padding */
+        section {
+            padding: 40px;
+        }
+
+        /* Ensure Links are Readable */
+        a {
+            color: #0056b3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Button Styling */
+        #dark-mode-toggle {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: none;
+            background-color: #0077cc;
+            color: white;
+            border-radius: 5px;
+            position: fixed;
+            top: 20px;
+            right: 20px;
+        }
+
+        /* Header Styling */
+        header nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Dark Mode Toggle -->
+    <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#projects">Projects</a>
+
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="intro">
+        <div class="intro-content">
+            <img src="images/profile.jpeg" alt="Maithili Lokhande" class="profile-pic">
+            <h1>Hello, I'm Maithili Lokhande👋</h1>
+            <h12>This is my Portfolio 👀</h12>
+            <p>Data Scientist | Data Analyst | Problem Solver | Learner </p>
+            <a href="https://in.linkedin.com/in/maithili-lokhande-4600822a3" target="_blank" class="btn">Connect on LinkedIn</a>
+            <a href="https://github.com/lokhandemm" target="_blank" class="btn">Visit My GitHub</a>
+        </div>
+    </section>
+   <!-- Achievements Section -->
+<section id="achievements" class="achievements">
+    <h2>🏅 Achievements</h2>
+
+    <div class="achievement-item">
+        <h3>🎓 Merit Scholarship Awardee</h3>
+        <p>Awarded the <strong>Merit Scholarship</strong> for exceptional academic performance during the <strong>2nd year</strong> of B.Tech at <strong>RCOEM</strong>.</p>
+        <img src="images/scholarshipp.jpeg" alt="Merit Scholarship">
+        <p><a href="https://drive.google.com/file/d/1UHKcT7PxgfAZvo_vw6pRaanoYFvxPQSr/view?usp=sharing" target="_blank">📜 View Certificate</a></p>
+    </div>
+
+    <div class="achievement-item">
+        <h3>🏸 1st Prize in Badminton Branch Cup</h3>
+        <p>Secured <strong>1st position</strong> in the <strong>Badminton Branch Cup</strong>, demonstrating dedication and competitive spirit in sports.</p>
+        <img src="images/badmintonn.png" alt="Badminton Champion">
+        <p><a href="https://drive.google.com/file/d/1WkGm6SPuj7pcf99v_q6hEhBa2gGCdk_n/view?usp=sharing" target="_blank">📜 View Certificate</a></p>
+    </div>
+
+    <div class="achievement-item">
+        <h3>🌟 Chairman's Club Member</h3>
+        <p>Honored to be part of the prestigious <strong>Chairman's Club</strong>, marking a <strong>new milestone</strong> in the <strong>history of RCOEM</strong> for leadership and excellence.</p>
+        <img src="images/chairmans_club.jpg" alt="Chairman's Club">
+    </div>
+
+    <div class="achievement-item">
+        <h3>💻 ACM Club Member</h3>
+        <p>Active <strong>ACM Club</strong> member, contributing to collaborative learning, innovation, and technological advancements.</p>
+        <img src="images/acm.jpg" alt="ACM Membership">
+    </div>
+
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="portfolio">
+        <h2>🌟 Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>📚 <a href="https://notescraft1.odoo.com/" target="_blank">NotesCraft</a></h3>
+                <p>Created a responsive online notes-selling platform for academic content.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>📚🔒 Caesar Cipher Encryption</h3>
+                <p>Python-based encryption tool for secure message encoding/decoding.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>🤖 Deep Learning Chatbot</h3>
+                <p>AI-powered chatbot using NLP techniques (LSTM/RNN) for smarter responses.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>📊 Customer Churn Analysis</h3>
+                <p>Used machine learning to identify at-risk customers and reduce churn.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>🏦 Loan Approval Prediction</h3>
+                <p>Built a predictive model using Logistic Regression & XGBoost.</p>
+            </div>
+
+            <div class="project-card">
+                <h3>🍽️ Zomato Data Analysis</h3>
+                <p>Analyzed customer trends using data visualization with Pandas & Matplotlib.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>📬 Contact Me</h2>
+        <p>Email: <a href="mailto:maithili.lok25@gmail.com">maithili.lok25@gmail.com</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 All rights reserved by Maithili Lokhande</p>
+    </footer>
+
+    <!-- JavaScript for Dark Mode -->
+    <script>
+        const toggleBtn = document.getElementById('dark-mode-toggle');
+        toggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+
+</body>
+
+</html>
