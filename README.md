@@ -2,7 +2,7 @@
            
 A **personal portfolio website** showcasing my skills, projects, and accomplishments as a **web developer**. Built using **HTML, CSS, and JavaScript**, this portfolio highlights my expertise, experience, and contact details in an interactive and visually appealing way. 
 
-## 🌟 Features
+## 🌟 Features 
  
 - 🏠 **Home Page** – A clean and modern landing page with an introduction.
 - 👩‍💻 **About Me** – A section detailing my skills, experience, and background.
