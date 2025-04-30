@@ -15,7 +15,7 @@ A **personal portfolio website** showcasing my skills, projects, and accomplishm
 ## 🔧 Technologies Used
 
 - **Frontend:** HTML5, CSS3, JavaScript
-- **Animations & Effects:** CSS Transitions, JavaScript
+- **Animations & Effects:** CSS Transitions, JavaScript 
 - **Icons & Fonts:** Font Awesome, Google Fonts 
 - **Version Control:** Git & GitHub
 
